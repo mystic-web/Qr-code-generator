@@ -1,0 +1,228 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 414px;
+  height: 896px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 3px;
+  position: relative;
+  width: 289px;
+  margin: 255px 0 0 35px;
+  z-index: 10;
+}
+.text {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 29px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.26px;
+  z-index: 11;
+}
+.text-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 262px;
+  height: 48px;
+  color: #565dfa;
+  font-family: Inter, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.44px;
+  z-index: 12;
+}
+.text-3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 289px;
+  height: 38px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.364px;
+  text-align: left;
+  letter-spacing: -0.18px;
+  z-index: 13;
+}
+.text-4 {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 55px 0 0 36px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 17.3170223236084px;
+  font-weight: 400;
+  line-height: 25.976px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.19px;
+  z-index: 6;
+}
+.section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 345px;
+  margin: 18px 0 0 35px;
+  padding: 16px 72px 16px 72px;
+  border: 1.5px solid #000000;
+  border-radius: 16px;
+}
+.pic {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../assets/images/bf2aecb98be556707525df9a580a375335760f33.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 1;
+}
+.text-5 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 24px;
+  color: #1c1c1c;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.18px;
+  z-index: 2;
+}
+.box-2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 345px;
+  margin: 11px 0 0 35px;
+  padding: 16px 80px 16px 80px;
+  border: 1.5px solid #000000;
+  z-index: 3;
+  border-radius: 16px;
+}
+.text-6 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 24px;
+  color: #1c1c1c;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.18px;
+  z-index: 4;
+}
+.pic-2 {
+  flex-shrink: 0;
+  position: relative;
+  width: 19.2px;
+  height: 19.176px;
+  background: url(../assets/images/447cc8ed-ed43-4df2-a0c8-d4ea2cef1b37.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 5;
+}
+.box-3 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 6px;
+  position: relative;
+  width: 245px;
+  margin: 24px 0 0 84px;
+  z-index: 7;
+}
+.text-7 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 19px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: -0.18px;
+  z-index: 8;
+}
+.text-8 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 48px;
+  height: 19px;
+  color: #565dfa;
+  font-family: Inter, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: underline;
+  white-space: nowrap;
+  letter-spacing: -0.18px;
+  z-index: 9;
+}
